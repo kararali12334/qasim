@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .view img
+        {
+            max-height: 400px;
+            object-fit: cover;
+
+        }
+        .card 
+        {
+            -webkit-box-shadow:0 0px 0px 0 rgba(0,0,0,0.16), 0 0px 0px 0 rgba(0,0,0,0.12) !important;
+            box-shadow: 0 0px 0px 0 rgba(0,0,0,0.16), 0 0px 0px 0 rgba(0,0,0,0.12) !important;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karar Aq</title>
+    <link rel="icon" href="../CSS/Dark.jpg">
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+</head>
+<body>
+<header>
+ <!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-2" data-slide-to="1"></li>
+      <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view">
+          <img class="d-block w-100" src="Insomnia-871608357-large.jpg"
+            alt="First slide">
+          <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Hollywood Movie</h3>
+          <p>Insomina</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="source-code-movie-poster-2-whysoblu.jpg"
+            alt="Second slide">
+          <div class="mask rgba-black-strong"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Hollywood Movie</h3>
+          <p>Source Code</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div  class="view">
+          <img class="d-block w-100" src="pzxDgXAwQ3E7WGE61PH8LefxOsS.jpg"
+            alt="Third slide">
+          <div class="mask rgba-black-slight"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Hollywood Movie</h3>
+          <p> Gone Girl</p>
+        </div>
+      </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+  </div>
+  <!--/.Carousel Wrapper-->
+</header>    
+
+<main style="margin: auto; max-width: 700px;">
+    <div class="card mb-3" style="max-width: 500px; margin: 10px;">
+        <div class="row no-gutters">
+         
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Insomina</h5>
+              <p class="card-text">This is a movie produced at 2002 and directed by Nolan,starring by Alpacino and Robert Williams.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="Insomnia-871608357-large.jpg" class="card-img" alt="...">
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 500px; margin: 10px;">
+        <div class="row no-gutters">
+         
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">The prestige</h5>
+              <p class="card-text">This is a movie produced at 2006 and directed by Nolan,starring by Hugh Jackman and christian bale.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="5MXyQfz8xUP3dIFPTubhTsbFY6N.jpg" class="card-img" alt="...">
+          </div>
+        </div>
+      </div>
+</main>
+
+
+
+<footer style="margin: auto; max-width: 800px;">
+    <!-- Card -->
+<div class="card card-cascade wider reverse">
+
+    <!-- Card image -->
+    <div class="view view-cascade overlay">
+  <embed   src="https://cinemana2.shabakaty.com/home" width="100%" height="400px" type="">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+  
+    <!-- Card content -->
+    <div class="card-body card-body-cascade text-center">
+  
+      <!-- Title -->
+      <h4 class="card-title"><strong>Cinemana</strong></h4>
+      <!-- Subtitle -->
+      <h6 class="font-weight-bold indigo-text py-2">About WebSite</h6>
+      <!-- Text -->
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem perspiciatis
+        voluptatum a, quo nobis, non commodi quia repellendus sequi nulla voluptatem dicta reprehenderit, placeat
+        laborum ut beatae ullam suscipit veniam.
+      </p>
+  
+      <!-- Linkedin -->
+      <a href="#" class="px-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a>
+      <!-- Twitter -->
+      <a href="#" class="px-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a>
+      <!-- Dribbble -->
+      <a href="#" class="px-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a>
+  
+    </div>
+  
+  </div>
+  <!-- Card -->
+</footer>
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> Cinemana shabakaty</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+    <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+</body>
+</html>
